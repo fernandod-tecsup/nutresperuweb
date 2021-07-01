@@ -10,7 +10,7 @@
         <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         
         <!-- Title -->
-        <title>Circl - Responsive Admin Dashboard Template</title>
+        <title>NutresPeru</title>
 
         <!-- Styles -->
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,800&display=swap" rel="stylesheet">
@@ -33,7 +33,7 @@
     <body class="login-page">
         <div class='loader'>
             <div class='spinner-grow text-primary' role='status'>
-              <span class='sr-only'>Loading...</span>
+              <span class='sr-only'>Cargando...</span>
             </div>
           </div>
         <div class="container">
@@ -45,45 +45,70 @@
                                 <img src="../../assets/images/logo@2x.png" alt="">
                             </div>
                             <div class="authent-text">
-                                <p>Welcome to Circl</p>
-                                <p>Enter your details to create your account</p>
+                                <p>Bienvenido a NutresPeru</p>
+                                <p>Ingrese tus datos para crear tu cuenta</p>
                             </div>
 
                             <form>
                                 <div class="mb-3">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="floatingInput" placeholder="Fullname">
-                                        <label for="floatingInput">Fullname</label>
+                                        <input type="text" class="form-control" id="txtApellido" placeholder="Fullname">
+                                        <label for="floatingInput">Apellido</label>
                                       </div>
                                 </div>
                                 <div class="mb-3">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" id="floatingInput1" placeholder="name@example.com">
-                                        <label for="floatingInput">Email address</label>
+                                        <input type="text" class="form-control" id="txtNombre" placeholder="Fullname">
+                                        <label for="floatingInput">Nombre</label>
                                       </div>
                                 </div>
                                 <div class="mb-3">
                                     <div class="form-floating">
-                                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                                        <label for="floatingPassword">Password</label>
+                                        <input type="number" class="form-control" id="txtDni" placeholder="Fullname">
+                                        <label for="floatingInput">Dni</label>
                                       </div>
                                 </div>
                                 <div class="mb-3">
                                     <div class="form-floating">
-                                        <input type="password" class="form-control" id="floatingPassword1" placeholder="Confirm Password">
-                                        <label for="floatingPassword">Confirm Password</label>
+                                        <input type="email" class="form-control" id="txtCorreo" placeholder="name@example.com">
+                                        <label for="floatingInput">Correo Electronico</label>
                                       </div>
                                 </div>
-                                <div class="mb-3 form-check">
+                                <div class="mb-3">
+                                    <div class="form-floating">
+                                        <input type="number" class="form-control" id="txtCelular" placeholder="Fullname">
+                                        <label for="floatingInput">Celular</label>
+                                      </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="txtSexo" placeholder="name@example.com">
+                                        <label for="floatingInput">Sexo</label>
+                                      </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="form-floating">
+                                        <input type="password" class="form-control" id="txtContrasena" placeholder="Password">
+                                        <label for="floatingPassword">Contraseña</label>
+                                      </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="form-floating">
+                                        <input type="password" class="form-control" id="txtContrasena" placeholder="Confirm Password">
+                                        <label for="floatingPassword">Confirmar Contraseña</label>
+                                      </div>
+                                </div>
+                                <!--<div class="mb-3 form-check">
                                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                   <label class="form-check-label" for="exampleCheck1">I agree the <a href="#">Terms and Conditions</a></label>
                                 </div>
+                                -->
                                 <div class="d-grid">
-                                <button type="submit" class="btn btn-primary m-b-xs">Register</button>
+                                <button type="submit" class="btn btn-primary m-b-xs">Registrar</button>
                             </div>
                               </form>
                               <div class="authent-login">
-                                  <p>Already have an account? <a href="login.html">Sign in</a></p>
+                                  <p>¿Ya tienes una cuenta? <a href="login.php">Iniciar Sesión</a></p>
                               </div>
                         </div>
                     </div>

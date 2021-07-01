@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -10,7 +11,7 @@
         <!-- The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         
         <!-- Title -->
-        <title>Circl - Responsive Admin Dashboard Template</title>
+        <title>NutresPeru</title>
 
         <!-- Styles -->
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,800&display=swap" rel="stylesheet">
@@ -72,7 +73,7 @@
                             </div>
                               </form>
                               <div class="authent-reg">
-                                  <p>¿No está registrado? <a href="register.html">Crear una cuenta</a></p>
+                                  <p>¿No está registrado? <a href="register.php">Crear una cuenta</a></p>
                               </div>
                         </div>
                     </div>
