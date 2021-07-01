@@ -31,7 +31,7 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body class="login-page">
+    <body class="login-page" background="../../assets/images/fondo5.jpg">
         <div class='loader'>
             <div class='spinner-grow text-primary' role='status'>
               <span class='sr-only'>Cargando</span>
@@ -43,7 +43,7 @@
                     <div class="card login-box-container">
                         <div class="card-body">
                             <div class="authent-logo">
-                                <img src="../../assets/images/logo@2x.png" alt="">
+                                <img src="../../assets/images/logonutresperu.jpg" alt="" width="110px">
                             </div>
                             <div class="authent-text">
                                 <p>Bienevenido a NutresPeru</p>
@@ -54,7 +54,7 @@
                                 <div class="mb-3">
                                     <div class="form-floating">
                                         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                        <label for="floatingInput">Email</label>
+                                        <label for="floatingInput">Correo Electrónico</label>
                                       </div>
                                 </div>
                                 <div class="mb-3">
@@ -68,7 +68,7 @@
                                   <label class="form-check-label" for="exampleCheck1">Check me out</label>
                                 </div>-->
                                 <div class="d-grid">
-                                <button type="submit" class="btn btn-info m-b-xs">Iniciar Sesión</button>
+                                <button type="submit" class="btn btn-success m-b-xs">Iniciar Sesión</button>
                                 <button class="btn btn-primary">Google</button>
                             </div>
                               </form>

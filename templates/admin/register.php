@@ -30,7 +30,7 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body class="login-page">
+    <body class="login-page" background="../../assets/images/fondo5.jpg">
         <div class='loader'>
             <div class='spinner-grow text-primary' role='status'>
               <span class='sr-only'>Cargando...</span>
@@ -42,11 +42,11 @@
                     <div class="card login-box-container">
                         <div class="card-body">
                             <div class="authent-logo">
-                                <img src="../../assets/images/logo@2x.png" alt="">
+                                <img src="../../assets/images/logonutresperu.jpg" width="110px" alt="">
                             </div>
                             <div class="authent-text">
                                 <p>Bienvenido a NutresPeru</p>
-                                <p>Ingrese tus datos para crear tu cuenta</p>
+                                <p>Ingrese tus datos</p>
                             </div>
 
                             <form>
